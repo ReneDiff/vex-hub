@@ -6,7 +6,7 @@
   "statements": [
     {
       "vulnerability": {"name": "CVE-2023-45853"},
-      "products": ["pkg:oci/min-nginx-app?repository_url=ghcr.io/renediff/kubernetesdeploymenttest"],
+      "products": [{"@id": "pkg:oci/min-nginx-app?repository_url=ghcr.io/renediff/kubernetesdeploymenttest"}],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Denne sårbarhed findes i en NGINX-modul, vi ikke har aktiveret i vores konfiguration."
